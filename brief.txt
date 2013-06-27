@@ -14,13 +14,26 @@ Tasks table
 - assigned_to
 
 
-
-
-
-
 C   /create_new_task (3)
 R   /get_a_task (2)
 R   /list_all_tasks (1)
 U   /update_task (5)
 D   /delete_task (4)
 
+
+
+
+
+Option to update the task:L
+
+<% if @task != nil do %>
+<form action='/create' method='get'>
+
+  Task:<input type='text' name='task'>
+  Due date:<input type='text' name='duedate'>
+
+  <button><%= 'Update task' %></button>
+
+</form>
+
+<% end %>

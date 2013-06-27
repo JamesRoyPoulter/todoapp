@@ -39,9 +39,8 @@ get '/get' do
     @results = db.exec(sql)
 
     @task = params[:task]
-    sql = "select task from tasks where task='#{@task}';"
-    @task_got = sql
-    puts "#{sql}"
+    sql = "select * from tasks where task='#{@task}';"
+    @task_got = db.exec(sql)
 
 erb :get
 end

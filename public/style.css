@@ -1,3 +1,90 @@
 body {
-  background: pink;
+  background: #ecf0f1;
+  font: 130%/1.4 Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+
+header {
+  background: #3498db;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+section {
+  float: left;
+  background: #1abc9c;
+  width: 475px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  clear: both;
+  background: #e67e22;
+  padding: 15px;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 20px 0;
+}
+
+li {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.page {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.sidebar {
+  width: 225px;
+  float: right;
+  background-color: #34495e;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+
+
+/****** LINKS ******/
+
+a:link {
+  text-decoration: none;
+  color: #bdc3c7;
+  font-weight: bold;
+}
+
+a:visited {
+ text-decoration: none;
+ color: #bdc3c7;
+ font-weight: bold;
+}
+
+a:hover {
+ text-decoration: none;
+ color: #bdc3c7;
+ font-weight: bold;
+}
+
+a:focus {
+ text-decoration: none;
+ color: #f6371e;
+ font-weight: bold;
+ outline: none;
 }

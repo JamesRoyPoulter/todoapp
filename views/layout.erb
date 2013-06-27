@@ -7,11 +7,14 @@
 </head>
 
 <body>
-<header>
-  <h1> You dO</h1>
-</header>
+  <div class="page">
+    <header>
+      <h1> You dO</h1>
+    </header>
 
-   <nav>
+    <div class="sidebar">
+      <nav>
+        <h3>Task menu</h3>
         <ul>
           <li><a href='/list'>List of tasks</a></li>
           <li><a href='/create'>Create a task</a></li>
@@ -19,13 +22,17 @@
           <li><a href='/update'>Update a task</a></li>
           <li><a href='/delete'>Delete a task</a></li>
         </ul>
-    </nav>
+      </nav>
+    </div>
 
-<%= yield %>
+    <section>
+      <h3>Task actions</h3>
+      <%= yield %>
+    </section>
 
-<footer>
-  <p>The best way for you to do since you did</p>
-</footer>
-
+    <footer>
+      <p>The best way to do since you did</p>
+    </footer>
+  </div>
 </body>
 </html>
