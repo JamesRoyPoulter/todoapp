@@ -1,0 +1,26 @@
+TO DO
+
+createdb todo_database
+create table(sql file)
+
+
+Tasks table
+- due date
+- name
+- status
+- details
+- priority
+- owner
+- assigned_to
+
+
+
+
+
+
+C   /create_new_task (3)
+R   /get_a_task (2)
+R   /list_all_tasks (1)
+U   /update_task (5)
+D   /delete_task (4)
+

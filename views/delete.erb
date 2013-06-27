@@ -1,0 +1,15 @@
+<form action='/delete' method='get'>
+
+  Task to delete:<input type='text' name='task'>
+
+  <button><%= 'Delete task' %></button>
+
+</form>
+
+
+
+<ul>
+<% @results.each do |result| %>
+<li><%= result['task'] %></li>
+<%end%>
+</ul>
